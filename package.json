@@ -1,0 +1,10 @@
+{
+  "name": "com.celestegames.speech-to-text",
+  "displayName": "Speech To Text",
+  "version": "0.1.0",
+  "description": "A cross-platform Unity plugin that uses the Google Cloud Speech-To-Text API to perform real-time, streaming transcription of microphone input.",
+  "unity": "2019.1",
+  "author": {
+    "name": "Alan Wills"
+  }
+}
