@@ -1,16 +1,33 @@
 {
     "name": "Celeste.SpeechToText.Editor",
-	"rootNamespace": "CelesteEditor.SpeechToText",
-    "references": [
-        "GUID:da87acc52bd70415c9440d3fb44e959e"
+    "rootNamespace": "CelesteEditor.SpeechToText",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
     ],
-    "optionalUnityReferences": [],
-    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Google.Cloud.Speech.V1.dll",
+        "Google.Api.CommonProtos_STT.dll",
+        "Google.Api.Gax.Grpc_STT.dll",
+        "Google.Api.Gax_STT.dll",
+        "Google.Apis.Auth.PlatformServices_STT.dll",
+        "Google.Apis.Auth_STT.dll",
+        "Google.Apis.Core_STT.dll",
+        "Google.Apis.PlatformServices_STT.dll",
+        "Google.Apis_STT.dll",
+        "Google.LongRunning_STT.dll",
+        "Google.Protobuf_STT.dll",
+        "Grpc.Auth_STT.dll",
+        "Grpc.Core.Api_STT.dll",
+        "Grpc.Core_STT.dll",
+        "Newtonsoft.Json_STT.dll",
+        "System.Interactive.Async_STT.dll"
+    ],
+    "autoReferenced": false,
     "defineConstraints": [],
-    "versionDefines": []
+    "versionDefines": [],
+    "noEngineReferences": false
 }
